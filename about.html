@@ -1,0 +1,32 @@
+{% extends 'base.html' %}
+
+{% block title %}About{% endblock title %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+
+</head>
+
+
+{% block body %}
+<body style="background-color:#780e80;">
+
+<a href="http://127.0.0.1:8000/" class="button">Home</a>
+<h1 style="text-align:center"><b><i>About Us</i></b></h1>
+<pre style="color:white;">
+<center>
+  <img src="/static/firstimg.jfif" alt="..." style="width:50%;">
+  </center>
+  <b style="color:blue;font-size:18px"> Panamax Inc.</b>, the technology arm of Bankai Group, is a global leader in developing FinTech and telecommunication technologies for telecom operators, carriers, MNOs and MVNOs. Headquartered in New York, it was established in the year 2001. The company has worked with some highly reputed clients over the years and has gained invaluable insights that have helped us optimize our telecom and technology turnkey solutions. Our solutions and services are specifically designed to ensure a seamless integration with the existing ecosystems of our potential clients.
+
+  The Digital Financial Solutions by Panamax facilitate dynamic wallet management, mobile money, microcredit, international remittance and bill payment for telecom operators and banks. It is the most secure solution designed to resist frauds and unauthorized transactions.
+
+  Our Business Support System (BSS) products extend converged & interconnect roaming solutions, rating, retail subscriber prepaid and postpaid billing, deal management, fraud management and business process automation solutions.
+
+  We also provide Network Switching Subsystem (NSS) solutions through a complete product suite of Class-4 & Class-5 Switching solutions, Unified Communications, VoBB, IP Telephony, Transcoding & Conference solutions.
+  </pre>
+  {% include 'contacts.html' %}
+  </body>
+</html>
+{% endblock body %}
