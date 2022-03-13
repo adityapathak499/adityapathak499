@@ -1,0 +1,11 @@
+lst=["Aadi", "Abhishek", "Abhishesk 2", "Satish", "Mishra", [987,87,985,5]]
+#lst.append("Pathak")
+#lst.extend([987])
+#lst.insert(0,"Aditya")
+#print(type(lst))
+#print(lst[::-1])
+#lst.reverse()
+#lst.remove("Aadi")
+#lst.pop()
+#lst.sort()
+print(lst)
